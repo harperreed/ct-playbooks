@@ -1,0 +1,29 @@
+baseURL: /
+
+publishDir: "public"
+languageCode: en-us
+title: "Scaling Contact Tracing"
+theme: "scalingct-theme"
+
+canonifyURLs: true
+enableRobotsTXT: true
+sectionPagesMenu: main
+
+params:
+  description: ""
+  author: ""
+  keywords: ""
+  name: "Scaling Contact Tracing"
+  email: questions@scalingcontacttracing.org
+
+  
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+  - rss
+  - section
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

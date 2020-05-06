@@ -1,0 +1,30 @@
+##
+
+- 
+  title: USDR Contact Tracing Playbook
+  description: A contact tracing playbook focused on tech enablement
+  usdr_summary: "Our playbook around contact tracing and technology enablement"
+  audience: 
+    - Public Health Authorities
+    - State Governments
+    - City Govenrments
+    - County Governments
+    - Technology implementors
+  organization:
+    url: https://usdigitalresponse.org/
+    name: U.S. Digital Response
+  playbook_url: https://contacttracingplaybook.org/
+
+- 
+  title: Covid-19 Contact Tracing Playbook
+  description: This playbook aims to provide clear, comprehensive and actionable technical guidance and tools for U.S. jurisdictions to rapidly set up and implement contact tracing to support COVID-19 containment.
+  playbook_url: https://covidplaybook.resolvetosavelives.org/
+  usdr_summary: "Resolve to Save Lives is one of the leaders in the pandemic response space. We are very impressed with their thinking and forethought around contact tracing"
+  organization:
+    url: https://resolvetosavelives.org/
+    name: Resolve to Save Lives
+  audience: 
+    - Public Health Authorities
+    - State Governments
+    - City Govenrments
+    - County Governments

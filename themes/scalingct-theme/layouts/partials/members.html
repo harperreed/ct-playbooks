@@ -1,0 +1,7 @@
+<!-- start partial member.html -->
+
+  <div class="members">
+    {{ range sort $.Site.Data.members "organization" }}
+      {{ partial "member.html" .}}
+    {{ end }}
+  </div>

@@ -1,0 +1,7 @@
+
+ 
+  <div class="drafters">
+    {{ range sort $.Site.Data.playbooks "title" }}
+      {{ partial "playbook.html" .}}
+    {{ end }}
+  </div>
