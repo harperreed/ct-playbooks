@@ -4,6 +4,8 @@
   title: USDR Contact Tracing Playbook
   description: A contact tracing playbook focused on tech enablement
   usdr_summary: "Our playbook around contact tracing and technology enablement"
+  published_date: 5/2/2020
+  population: General Population
   audience: 
     - Public Health Authorities
     - State Governments
@@ -23,6 +25,20 @@
   organization:
     url: https://resolvetosavelives.org/
     name: Resolve to Save Lives
+  audience: 
+    - Public Health Authorities
+    - State Governments
+    - City Govenrments
+    - County Governments
+
+- 
+  title: "COVID-19 Contact Tracing Training: Guidance, Resources and Sample Training Plan"
+  description: This document contains a sample training plan including training topics that may be helpful for state and local public health jurisdictions to consider when designing their own training plan for COVID-19 contact tracers. Each heading represents the learning objective for that section. Suggested training modalities/formats are provided, as well as information about sample existing trainings and resources. This document may be updated as new resources become available. For the purposes of this document, contact tracers are those who notify close contacts of COVID-19 patients of their exposures.
+  playbook_url: https://www.cdc.gov/coronavirus/2019-ncov/php/contact-tracing/index.html
+  usdr_summary: "Very good resource from CDC"
+  organization:
+    url: https://cdc.gov/
+    name: Center for Disease Control
   audience: 
     - Public Health Authorities
     - State Governments
