@@ -10,11 +10,11 @@ enableRobotsTXT: true
 sectionPagesMenu: main
 
 params:
-  description: ""
-  author: ""
-  keywords: ""
+  description: "There is a lot of information on the internet about contact tracing. We used our network to find the best contact tracing playbooks so that we could recommend one destination to our partners. As we worked with more partners, it became clear that this info was helpful beyond our world. Here is the curated list of Contact Tracing Playbooks that we have found."
+  author: "USDR"
+  keywords: "contact tracing, contact tracing playbook, us digital response, contact tracing"
   name: "Scaling Contact Tracing"
-  email: questions@scalingcontacttracing.org
+  email: contact@usdigitalresponse.org
 
   
 disableKinds:
