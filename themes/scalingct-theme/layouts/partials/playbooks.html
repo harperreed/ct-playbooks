@@ -1,7 +1,7 @@
 
  
   <div class="playbooks">
-    {{ range sort $.Site.Data.playbooks "title" }}
+    {{ range sort $.Site.Data.playbooks "weight" "asc" }}
       {{ partial "playbook.html" .}}
     {{ end }}
   </div>
