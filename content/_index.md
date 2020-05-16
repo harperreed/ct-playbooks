@@ -3,11 +3,8 @@ title: "Scaling contact tracing"
 date: 2020-04-13T05:31:18Z
 draft: false
 
-menu: ["main", "footer"]
 
-menu: 
-  main:
-    name: Home
+
 
 ---
 
@@ -17,7 +14,17 @@ There is a lot of information on the internet about contact tracing. We used our
 
 {{< playbooks >}}
 
-
-## Contribute
+# Contribute
 
 If you have written a playbook, found a playbook helpful, or are looking to connect with U.S. Digital Response -  Please email us: [contact@usdigitalresponse.org](mailto:contact@usdigitalresponse.org)
+
+# About U.S. Digital Response
+
+### USDR helps governments respond as fast as possible to COVID-19.
+
+Founded by former U.S. Deputy CTOs and seasoned tech industry veterans who led federal open data policies and digital government strategy, U.S. Digital Response is a nonpartisan effort that connects experienced, pro bono technology teams to public servants responding to the COVID-19 crisis.
+
+Contact us: [contact@usdigitalresponse.org](mailto:contact@usdigitalresponse.org)   
+Visit our website: [usdigitalresponse.org](https://usdigitalresponse.org)
+
+
