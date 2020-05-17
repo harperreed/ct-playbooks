@@ -1,5 +1,5 @@
-<div class="draftee">
-  <h2><a href="{{ .playbook_url }}">{{ .title }}</a></h2>
+<div class="playbook">
+  <h2><a href="{{ .link }}"  target="_blank">{{ .title }}</a></h2>
   {{ with .description }}<p><span>{{ . }}</span></p>{{ end }}
   {{ with .usdr_comment }}<p><blockquote>{{.}} &mdash; USDR Team</blockquote></p>{{ end }}
   <h4>
@@ -8,11 +8,11 @@
   <h4>Details</h4>
   <ul>
     {{ with .organization }}<li><b>Organization:&nbsp;</b> 
-      {{ with .url }}<a href="{{ . }}">{{ end }}{{ with .name }}{{ . }}{{ end }}{{ with .url }}</a>{{ end }}.
+      {{ with .url }}<a target="_blank" href="{{ . }}">{{ end }}{{ with .name }}{{ . }}{{ end }}{{ with .url }}</a>{{ end }}
       </li>{{ end }}
-    {{ with .publication_date }}<li><b>Publication date:&nbsp;</b>{{ . }}</li>{{ end }}
+    {{ with .publication_date }}<li><b>Publication date:&nbsp;</b>{{ dateFormat "Jan 2, 2006" . }}</li>{{ end }}
     {{ with .population }}<li><b>Covered population:&nbsp;</b>{{ delimit . ", " ", and " }}</li>{{ end }}
     {{ with .audience }}<li><b>Target Audience:&nbsp;</b>{{ delimit . ", " ", and " }}</li>{{ end }}
   </ul>
-  
+  <hr />
 </div>

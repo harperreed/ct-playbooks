@@ -10,9 +10,14 @@
     '
   link: Covidplaybook.resolvetosavelives.org
   organization:
+    features:
+    - Public Health Advocacy
+    - Non Profit
     name: Resolve to Save Lives
     playbooks:
     - rech667fDQdGiztOA
+    url: https://resolvetosavelives.org/
+  playbook: 'Resolve to Save Lives: Covid-19 Contact Tracing Playbook'
   population:
   - General Population
   publication_date: '2020-05-20'
@@ -23,6 +28,7 @@
     tracing
 
     '
+  weight: 2
 - audience:
   - State Government
   - Federal Government
@@ -43,9 +49,15 @@
     '
   link: https://www.cdc.gov/coronavirus/2019-ncov/php/contact-tracing/index.html
   organization:
+    features:
+    - Federal Government
+    - Public Health Authority
     name: Center for Disease Control
     playbooks:
     - rec1hwsptL1KJKCer
+    url: https://cdc.gov
+  playbook: 'Center for Disease Control: COVID-19 Contact Tracing Training: Guidance,
+    Resources and Sample Training Plan'
   population:
   - General Population
   publication_date: '2020-05-04'
@@ -53,6 +65,152 @@
   title: 'COVID-19 Contact Tracing Training: Guidance, Resources and Sample Training
     Plan'
   usdr_comment: Very thorough resource from CDC
+  weight: 3
+- audience:
+  - State Government
+  - Federal Government
+  category:
+  - Contact tracing
+  description: Guide to testing, tracing, and community management
+  link: https://www.pih.org/sites/default/files/2020-04/PIH_Guide_COVID_Part_I_Testing_Tracing_Community_Managment_4_4.pdf
+  organization:
+    features:
+    - Public Health Advocacy
+    - Non Profit
+    - Global
+    name: Partners in Health
+    playbooks:
+    - recxzfq7u2zPYVBBk
+    url: https://pih.org
+  playbook: 'Partners in Health: Testing, Contact Tracing and Community Management
+    of COVID-19'
+  population:
+  - General Population
+  publication_date: '2020-04-04'
+  publish: true
+  title: Testing, Contact Tracing and Community Management of COVID-19
+  usdr_comment: 'Partners In Health is one of the leaders in public health. Their
+    playbook is very highly recommended. '
+  weight: 1
+- audience:
+  - State Government
+  - Public Health Authority
+  category:
+  - Contact tracing
+  description: Community Tracing Collaborative plan
+  link: https://www.mass.gov/doc/community-tracing-collaborative-overview-presentation/download
+  organization:
+    features:
+    - State Government
+    name: State of Massachusetts
+    playbooks:
+    - recbFFA74RqPYaRd4
+    url: https://www.mass.gov/
+  playbook: 'State of Massachusetts: Rapid Design, Development & Operation of a Scalable
+    COVID-19 Contact Tracing Workforce & Automation Capability'
+  population:
+  - General Population
+  publication_date: '2020-04-28'
+  publish: true
+  title: Rapid Design, Development & Operation of a Scalable COVID-19 Contact Tracing
+    Workforce & Automation Capability
+  weight: 5
+- audience:
+  - State Government
+  - City Government
+  - Public Health Authority
+  category:
+  - Contact tracing
+  description: Overcome contact tracing challenges in senior living facilities
+  link: https://www.carepredict.com/blog/how-to-overcome-contact-tracing-challenges-in-senior-living-facilities/
+  organization:
+    features:
+    - For Profit
+    - Corporation
+    name: CarePredict
+    playbooks:
+    - recHrNJeullW4G2pC
+    url: https://www.carepredict.com/
+  playbook: 'CarePredict: How to Overcome Contact Tracing Challenges in Senior Living
+    Facilities'
+  population:
+  - Long-term care
+  publication_date: '2020-03-31'
+  publish: true
+  title: How to Overcome Contact Tracing Challenges in Senior Living Facilities
+  weight: 4
+- audience:
+  - State Government
+  - City Government
+  - Public Health Authority
+  category:
+  - Contact tracing
+  description: Contact tracing guidance for Long-term care facilities
+  link: https://www.dhs.pa.gov/providers/Clearances-and-Licensing/Documents/Assisted%20Living%20Licensing/LTCF%20Contact%20Tracing%20for%20COVID19%20Case.pdf
+  organization:
+    features:
+    - State Government
+    - Public Health Authority
+    name: Pennsylvania Department of Health Services
+    playbooks:
+    - recuDYS7C321h3SEO
+    url: https://www.health.pa.gov/Pages/default.aspx
+  playbook: 'Pennsylvania Department of Health Services: Steps to Conduct Contact
+    Tracing for a COVID-19-positive Case'
+  population:
+  - Long-term care
+  publication_date: '2020-03-21'
+  publish: true
+  title: Steps to Conduct Contact Tracing for a COVID-19-positive Case
+  weight: 8
+- audience:
+  - Public Health Authority
+  - Businesses
+  category:
+  - Contact tracing
+  description: Contact Tracing for your office
+  link: https://www.swipedon.com/blog/contact-tracing-for-your-workplace
+  organization:
+    features:
+    - For Profit
+    - Corporation
+    name: SwipedOn
+    playbooks:
+    - recAF4gIuSFXEIxTD
+    url: https://www.swipedon.com/
+  playbook: 'SwipedOn: A Guide To Contact Tracing for Your Workplace'
+  population:
+  - Workplace
+  publication_date: '2020-05-05'
+  publish: true
+  title: A Guide To Contact Tracing for Your Workplace
+  weight: 8
+- audience:
+  - Public Health Authority
+  - Healthcare Workers
+  category:
+  - Contact tracing
+  description: When systematically applied, contact tracing will break the chains
+    of transmission of an infectious disease and is thus an essential public health
+    tool for controlling infectious disease outbreaks. This document provides guidance
+    on how to establish contact tracing capacity for the control of COVID-19
+  link: https://www.who.int/publications-detail/contact-tracing-in-the-context-of-covid-19
+  organization:
+    features:
+    - Global
+    - Public Health Authority
+    name: World Health Organization
+    playbooks:
+    - recQW96EHhi80jxWk
+    - rec7bHyeyXtCCXJpu
+    url: https://who.int
+  playbook: 'World Health Organization: Contact tracing in the context of COVID-19'
+  population:
+  - General Population
+  publication_date: '2020-05-10'
+  publish: true
+  title: Contact tracing in the context of COVID-19
+  weight: 6
 - audience:
   - Technology implementors
   - Public Health Authority
@@ -64,13 +222,19 @@
   description: A contact tracing playbook focused on tech enablement
   link: https://contacttracingplaybook.org/
   organization:
+    features:
+    - Non Profit
+    - Public Health Advocacy
+    - Tech Enablement
     name: U.S. Digital Response
     playbooks:
     - recfVVjKudYLauC9w
     url: https://usdigitalresponse.org/
+  playbook: 'U.S. Digital Response: USDR Contact Tracing Playbook'
   population:
   - General Population
   publication_date: '2020-05-02'
   publish: true
   title: USDR Contact Tracing Playbook
   usdr_comment: Our playbook around contact tracing and technology enablement
+  weight: 5

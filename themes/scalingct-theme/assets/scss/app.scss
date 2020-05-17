@@ -22,15 +22,16 @@ body {
   color: #333;
   line-height: 1.8em;
   font-size: 18px;
+  
 }
 
 a {
-  color: #006C85;
+  color: #3F5674;
   text-decoration: none;
   word-break: break-word;
 
   &:hover {
-    border-bottom: 2px solid #006C85;
+    border-bottom: 2px solid rgb(133, 133, 133);
   }
 }
 
@@ -39,7 +40,7 @@ html, button, input, select, textarea {
 }
 
 ::-moz-selection, ::selection {
-  background: #006C85;
+  background: rgb(133, 133, 133);
   text-shadow: none;
   color: #fff;
 }
@@ -235,7 +236,7 @@ ul {
 }
 
 .page-header {
-	background-color: #e7f2f5;
+	background-color: #B7CEEC;
 	padding: 15px 0 0;
   	.container {
   		margin-top: 0;
@@ -245,7 +246,7 @@ ul {
   		padding: 0 60px;
   		margin-top: 0;
   		font-size: 1.9em;
-  		color: #162e51;
+  		color: #677E9C;
   		text-align: center;
   		a {
   			color: #333;
@@ -282,6 +283,7 @@ ul {
 
 .site-title a {
   color: #333;
+
   text-decoration: none !important;
 
   &:hover {
@@ -296,12 +298,12 @@ footer {
     justify-content: space-between;
   }
 
+
   nav {
+
   	background-color: #fff;
   	text-align: center;
   	font-size: 1.2em;
-    border-top: 1px solid #eee;
-    padding-top: 25px;
 
     ul {
       margin: 0;
@@ -616,4 +618,11 @@ div.members {
     overflow-x: auto;
     width: 100%;
   }
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
